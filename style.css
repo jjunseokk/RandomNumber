@@ -133,7 +133,7 @@ img{
 
     #inputNumber{
         width: 160px;
-
+        border : 1px solid red;
         font-size: 11px;
     }
 
