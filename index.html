@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Random Number">
+    <meta property="og:description" content="자신있으면 맞춰봐!">
+    <meta property="og:image" content="15457.jpg">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
     <title>숫자 맞추기 게임!</title>
@@ -17,11 +20,12 @@
             <img id="changeImg"src="Images/go!.gif" alt="가자!!">
             <p id="result">도전해봐~🙌</p>
             <div id="chance">남은기회 : 5</div>
-            <div>
+            <div class="inputArea">
                 <input id="inputNumber" type="number" placeholder="1부터 100까지 숫자를 입력하세요.">
                 <button id="startButton">입력!</button>
+                <button id="resetButton">RESET!</button>
             </div>
-            <button id="resetButton">RESET!</button>
+            
         </div>
         
     </div>
